@@ -1,0 +1,121 @@
+ /*ikony o mnie*/
+ .my-mine-background-icon {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    position:relative;
+}
+
+
+.my-slider-kafel {
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.1);
+   
+}
+.my-slider-kafel:nth-child(1){
+    background:white;
+
+}
+.my-mine-text img{ 
+   width:10%;
+    position: absolute;
+    display: block;    
+    left: 50%;
+    bottom: 30%;
+    z-index: -1;
+    opacity:0.5;
+}
+
+
+    .my-offer {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 15px;
+    margin:5px 10px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,.1);
+    }
+
+
+    
+
+/*****RESPONSIVE*******/
+ 
+
+ 
+
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-title {
+      font-size: 35px;
+      padding: 0 5% 0 0 ;
+      margin: 0;
+    }
+    .services-item .services-content h3 a {
+      font-size: 16px;
+    }
+    .services-item {
+      margin-bottom: 20px;
+    }
+    .counter-section .counter p {
+      font-size: 14px;
+    }
+    .overlay{
+      padding: 50px 0 50px 0;
+      height:100%;
+       }
+       
+      
+        #counter {
+          height:700px;
+        }
+        #counter  .container p {
+          font-size: 18px;
+          
+        }
+      
+        #kontact .section-title{
+          margin:0;
+          padding:0;
+        }
+  }
+  
+  /* mobile or only mobile */
+  @media (max-width: 767px) {
+    .section-title {
+      font-size: 35px;
+      padding: 0 5% 0 0 ;
+      margin: 0;
+    }
+   
+    #hero-area .contents {
+      padding:  150px 0px  0px 0px;
+    }
+    #hero-area .contents .head-title {
+      font-size: 22px;
+    }
+    #hero-area .contents h5 {
+      font-size: 32px;
+    }
+    #hero-area .contents p {
+      font-size: 20px;
+    }
+   .overlay{
+  padding: 50px 0 50px 0;
+  height:100%;
+   }
+   
+  
+    #counter {
+      height:700px;
+    }
+    #counter  .container p {
+      font-size: 18px;
+      
+    }
+    .section-title {
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+  
+  }
