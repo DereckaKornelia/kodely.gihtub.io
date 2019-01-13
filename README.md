@@ -1,2 +1,0 @@
-# Kodely
-Portfolio
